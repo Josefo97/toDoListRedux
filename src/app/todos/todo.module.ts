@@ -18,6 +18,7 @@ const COMPONENTS = [
   declarations: [...COMPONENTS],
   imports: [
     CommonModule
-  ]
+  ],
+  exports: [...COMPONENTS]
 })
 export class TodoModule { }
